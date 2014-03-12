@@ -1,0 +1,361 @@
+/* Global */
+
+body {
+	font-family: 'News Cycle', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #7f8c8d;
+	background-color:#ffffff;
+}
+img {
+	max-width: 100%;
+}
+a:link {
+	color: #f68f67;
+	text-decoration: none;
+}
+a:hover {
+	color: #bde2df;
+	text-decoration: none;
+}
+a:visited {
+	color: #f68f67;
+	text-decoration: none;
+}
+
+
+
+
+
+/* Navigation */
+
+.menu {
+	position:fixed;
+	top:0px;
+	width:100%; 
+	height:auto; 
+	background-color: rgba(240,255,255,0.90);
+	z-index:100;
+}
+#logo {
+	text-align: center;
+	margin: 10px 0;
+}
+#nav {
+	text-align: right;
+	margin: 30px 0 0 0;
+}
+.navigation{
+	float: left;
+	list-style: none;
+	margin: 0;
+}
+.navigation li{
+	font-size: 20px;
+	font-family: 'Poiret One';
+	float: left;
+	padding:0 0 0 50px;
+	margin-bottom: 10px;
+}
+.navigation li:hover{
+	cursor:pointer;
+	color: #a9d3d0;
+}
+
+.navigation .active{
+	cursor:pointer;
+	color: #3498db;
+	font-weight:bold;
+}
+
+
+
+
+/* General Slides */ 
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:auto;
+	position: relative;
+	padding:140px 0;
+}
+
+
+
+/* About Me */ 
+#name{
+	font-family: 'Satisfy', sans-serif;
+}
+#about{
+	font-size: 18px;
+}
+#aboutme{
+	background-color:#ffffff;
+}
+#aboutme h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#2c3e50;
+}
+#aboutme h3 {
+	font-size: 25px;
+	color: #8a8683;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+#aboutme p {
+	font-size: 18px;
+	color: #8a8683;
+	line-height: 17px;
+	font-weight: 400;
+}
+#paulette{
+	border-radius: 200px;
+}
+
+
+
+/* Interests */ 
+
+#interests{
+	background-image:url('../images/green.png');
+	background-color:#f68f67;
+	color:#ffffff;
+}
+#interests h1 {
+	font-size: 3.8em;
+	font-family: 'Oswald';
+	float: right;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 700;
+	margin-top: 0;
+}
+#interests h2 {
+	font-size: 2em;
+	color: #ebfbff;
+	padding-right: 40px;
+	font-weight: 400;
+}
+#interests p {
+	font-size: 20px;
+	line-height: 19px;
+}
+.grid_4{
+	margin: 60px;
+	padding-right: 50px;
+}
+
+/* Abilities */ 
+
+#abilities{
+	background-image:url('../images/tiles.png');
+	background-color:#ffffff;
+}
+#abilities h1 {
+	font-size: 3.8em;
+	font-family: 'Oswald';
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#8a8683;
+	font-weight: 700;
+}
+#abilities h3 {
+	font-size: 1.5em;
+	color: #8a8683;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+#abilities p {
+	font-size: 20px;
+	line-height: 19px;
+}
+#abilities strong {
+	color: #ff7493;
+}
+
+
+/* Contact me */
+
+#contactme{
+	background-image:url('../images/lines.png');
+	background-color:#8a8683;
+	color:#ffffff;
+}
+#contactme h1 {
+	font-size: 3.8em;
+	font-family: 'Oswald';
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 700;
+}
+#contactme h2 {
+	font-family: 'Poiret One';
+	font-size: 2em;
+	color: #ffffff;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+#contactme h3 {
+	font-size: 20px;
+	line-height: 0px;
+	color: #ffffff;
+}
+#contactme a:link{
+	color: #ecf0f1;
+}
+#contactme a:hover{
+	color: #a9d3d0;
+}
+
+
+
+
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+#nav {
+	width:100%;
+	text-align:center;
+	margin:10px 0;
+}
+
+.navigation{
+	width: 100%;
+	float: center;
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.navigation li{
+	float: left;
+	width:25%;
+	padding:0;
+}
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	position: relative;
+	padding:150px 0;
+}
+
+#decorative {
+	display:none;
+}
+
+#content {
+	text-align:center;
+	width:100%;
+}
+
+#aboutme h1 {
+	line-height: 1em;
+}
+#aboutme h2 {
+	line-height: 1em;
+}
+#interests h1 {
+	line-height: 1em;
+}
+#interests h2 {
+	line-height: 1em;
+}
+#abilities h1 {
+	line-height: 1em;
+}
+#abilities h2 {
+	line-height: 1em;
+}
+#contactme h1 {
+	line-height: 1em;
+}
+#contactme h2 {
+	line-height: 1em;
+}
+
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+#nav {
+	width:100%;
+	margin:5px 0;
+}
+
+.navigation{
+	width: 100%;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.navigation li{
+	float: left;
+	width:25%;
+}
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	position: relative;
+	padding:150px 0;
+}
+
+
+#aboutme h1 {
+	line-height: 1em;
+}
+#aboutme h2 {
+	line-height: 1em;
+}
+#interests h1 {
+	line-height: 1em;
+}
+#interests h2 {
+	line-height: 1em;
+}
+#abilities h1 {
+	line-height: 1em;
+}
+#abilities h2 {
+	line-height: 1em;
+}
+#contactme h1 {
+	line-height: 1em;
+}
+#contactme h2 {
+	line-height: 1em;
+}
+
+
+}
+
+
+
+
