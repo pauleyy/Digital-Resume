@@ -179,6 +179,10 @@ a:visited {
 #abilities strong {
 	color: #ff7493;
 }
+#abilities ul{
+	font-size: 20px;
+	line-height: 19px;
+}
 
 
 /* Contact me */
